@@ -18,6 +18,11 @@ public class StorageService {
         System.out.println("Person Type: ");
         String type = scanner.nextLine();
 
+        if(!type.equals("student") && !type.equals("professor")) {
+            System.out.println("Type should be student or professor");
+            return;
+        }
+
         System.out.println("Name: ");
         String name = scanner.nextLine();
 
