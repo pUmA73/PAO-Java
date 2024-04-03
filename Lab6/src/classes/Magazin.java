@@ -38,9 +38,8 @@ public class Magazin {
         this.suprafata = suprafata;
     }
 
-    public int setChirie(CalculChirie func) {
+    public void setChirie(CalculChirie func) {
         this.chirie = func.fChirie(suprafata);
-        return this.chirie;
     }
 
     public String getId() {
