@@ -1,0 +1,4 @@
+
+Pop; Maria; 23; 200.0; eur; 
+Ivan; Costel; 30; 400.0; usd; 
+Ivan; Costel; 40; 239.0; ron; 
